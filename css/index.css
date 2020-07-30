@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+    user-select: none;
+    text-align: center;
+}
+
+header{
+    font-size: large;
+    font-family: 'EB Garamond', serif
+}
+
+p{
+    background-color: rgb(250, 255, 235);
+    position: relative;
+    display: inline-block;
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* index page */
+.button{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(181, 253, 253);
+    width: 23px;
+    height: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #333;
+}
+
+/* library page */
+.box{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    background-color: rgb(157, 216, 255);
+    width: 100px;
+    height: 100px;
+}
+.inner{
+    padding: 20px;
+}
+
+/* memo page */
+.bar{
+    background-color: rgb(58, 58, 58);
+    font-size: 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+.child{
+    position: relative;
+    display: inline-block;
+}

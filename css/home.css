@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+    user-select: none;
+    text-align: center;
+}
+
+header{
+    font-size: large;
+    font-family: 'EB Garamond', serif
+}
