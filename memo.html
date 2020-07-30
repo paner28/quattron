@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title>クワトろん</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">クワトろん</a></h1>
+        <div>
+            <p><a href="index.html" class="btn2">Home</a></p>
+            <p><a href="memo.html" class="btn4">Memo</a></p>
+            <p><a href="library.html" class="btn4">Library</a></p>
+        </div>
+    </header>
+
+    <div class="parent" style="display: flex;">
+        <div class="child" style="width: 300px;">
+            <div style="background-color: rgb(58, 58, 58);font-size: 20px;color: white;width: 260px;margin-left: 15px;">メモ一覧</div>
+            <button onclick="reset()">リセット</button>
+        </div>
+        <div id="memo" contentEditable="true" style="border:1px solid black ;margin-right:20px; width:calc(100% - 300px);height:550px;text-align: left;"></div>
+    </div>
+
+
+    <script src="js/memo.js"></script>
+</body>
+</html>
