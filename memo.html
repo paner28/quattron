@@ -15,13 +15,18 @@
         </div>
     </header>
 
-    <div class="parent" style="display: flex;">
+    <div class="parent" style="display: flex;" id="father">
         <div class="child" style="width: 300px;">
             <div style="background-color: rgb(58, 58, 58);font-size: 20px;color: white;width: 260px;margin-left: 15px;">メモ一覧</div>
+            <div id="parent"></div>
             <button onclick="reset()">リセット</button>
         </div>
-        <div id="memo" contentEditable="true" style="border:1px solid black ;margin-right:20px; width:calc(100% - 300px);height:550px;text-align: left;"></div>
+        <div id="memo" contentEditable="true" style="border:1px solid black ;margin-right:20px; width:calc(100% - 300px);height:450px;text-align: left; background-color: white;"></div>
     </div>
+    <div style="border-radius: 50%;background-color: rgb(240, 223, 255);width: 60px;height: 60px;position: fixed; right:90px; bottom:20px;" onclick="save()">
+        <img src="save.png" style="width: 40px;height: 40px;background-color: rgb(240, 223, 255);margin-top: 10px;cursor: pointer;"/>
+    </div>
+    <div style="background-color: rgb(111, 255, 255) ;position: fixed; right:20px; bottom:20px;width: 60px;font-size: 40px; border-radius: 50%; cursor: pointer;" onclick="createMemo()">＋</div>
 
 
     <script src="js/memo.js"></script>
